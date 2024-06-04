@@ -1,0 +1,102 @@
+{
+    "lessonId": "smart-contracts-on-rootstock",
+    "title": "Exploring Smart Contracts on Rootstock",
+    "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/smart-contracts-on-rootstock/assets/cover.png",
+    "description": "A series where we delve into the world of smart contracts on Rootstock, extending Bitcoin's functionality through Ethereum-like programmability. Discover how developers leverage Solidity to create innovative dApps, tokenized assets, and DeFi solutions, all on the robust security of Bitcoin's network.",
+    "content": [
+        {
+            "id": "developer-guide-to-rootstock",
+            "title": "Developer's Guide to Rootstock",
+            "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/smart-contracts-on-rootstock/developer-guide-to-rootstock/cover.png",
+            "tutorial": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/smart-contracts-on-rootstock/developer-guide-to-rootstock/README.md",
+            "reference": "",
+            "description": "Developer's Guide to Rootstock"
+        },
+        {
+            "id": "unwrapping-wrapped-rbtc",
+            "title": "Unwrapping Wrapped rBTC Smart Contract",
+            "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/smart-contracts-on-rootstock/unwrapping-wrapped-rbtc/cover.png",
+            "tutorial": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/smart-contracts-on-rootstock/unwrapping-wrapped-rbtc/README.md",
+            "reference": "",
+            "description": "A Dive into Tokenized Bitcoin and its importance on Rootstock.",
+            "playground": {
+                "default": {
+                    "address": "0x542FDA317318eBf1d3DeAF76E0B632741a7e677d",
+                    "chainId": "30"
+                }
+            }
+        },
+        {
+            "id": "understanding-rns-registry",
+            "title": "Understanding RIF Naming Service (RNS) - Registry",
+            "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/smart-contracts-on-rootstock/understanding-rns-registry/cover.png",
+            "tutorial": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/smart-contracts-on-rootstock/understanding-rns-registry/README.md|https://github.com/rsksmart/devportal/blob/efd7caa79e0590f91b39e53091abde2ac6a484c1/content/rsk-devportal/rif/rns/architecture/registry.md",
+            "reference": "",
+            "description": "The RIF Naming Service (RNS) draws inspiration from the Domain Name System (DNS) and adopts a hierarchical tree structure. This design enables users to efficiently navigate and manage their naming assets on the Rootstock blockchain.",
+            "playground": {
+                "default": {
+                    "address": "0xcb868aeabd31e2b66f74e9a55cf064abb31a4ad5",
+                    "chainId": "30"
+                }
+            }
+        },
+        {
+            "id": "understanding-rns-resolver",
+            "title": "Understanding RIF Naming Service (RNS) - Resolver",
+            "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/smart-contracts-on-rootstock/understanding-rns-resolver/cover.png",
+            "tutorial": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/smart-contracts-on-rootstock/understanding-rns-resolver/README.md|https://github.com/rsksmart/devportal/blob/efd7caa79e0590f91b39e53091abde2ac6a484c1/content/rsk-devportal/rif/rns/architecture/Resolver.md",
+            "reference": "",
+            "description": "The RIF Naming Service (RNS) draws inspiration from the Domain Name System (DNS) and adopts a hierarchical tree structure. This design enables users to efficiently navigate and manage their naming assets on the Rootstock blockchain.",
+            "playground": {
+                "default": {
+                    "address": "https://github.com/rsksmart/rns-js/blob/10fe9eeb7d660cef9c80aaffb49a27894e1de5dd/contracts/resolver/MultiChainResolver.sol",
+                    "version": "v0.4.25+commit.59dbf8f1"
+                }
+            }
+        },
+        {
+            "id": "enhancing-defi-with-price-oracles-on-rootstock",
+            "title": "Enhancing DeFi with Price Oracles on Rootstock",
+            "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/smart-contracts-on-rootstock/enhancing-defi-with-price-oracles-on-rootstock/cover.png",
+            "tutorial": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/smart-contracts-on-rootstock/enhancing-defi-with-price-oracles-on-rootstock/README.md",
+            "reference": "",
+            "description": "Price oracles on Rootstock serve as crucial tools within the decentralized finance (DeFi) landscape, providing real-time and accurate pricing data for various assets such as Bitcoin.",
+            "playground": {
+                "default": {
+                    "address": "0xA288319ecB63301E21963E21eF3Ca8Fb720D2672",
+                    "chainId": "30"
+                }
+            }
+        },
+        {
+            "id": "decoding-rootstock-erc1820",
+            "title": "Decoding the Potential of Rootstock's ERC1820",
+            "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/smart-contracts-on-rootstock/decoding-rootstock-erc1820/cover.png",
+            "tutorial": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/smart-contracts-on-rootstock/decoding-rootstock-erc1820/README.md",
+            "reference": "",
+            "description": "Discover how ERC-1820 revolutionizes smart contract interactions with a comprehensive guide exploring its registry, interfaces, and managers.",
+            "playground": {
+                "default": {
+                    "address": "0x1820a4b7618BdE71dCE8CDC73aAB6c95905FAD24",
+                    "chainId": "30"
+                }
+            }
+        }
+    ],
+    "resources": [
+        {
+            "title": "Website",
+            "type": "link",
+            "url": "https://rootstock.io/"
+        },
+        {
+            "title": "Developers",
+            "type": "link",
+            "url": "https://dev.rootstock.io/courses/blockchain-developer/"
+        }
+    ],
+    "author": {
+        "name": "",
+        "email": ""
+    }
+}
