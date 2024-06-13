@@ -1,19 +1,19 @@
 {
     "lessonId": "exploring-viction-ecosystem",
     "title": "Exploring Viction Ecosystem",
-    "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/exploring-viction-ecosystem/assets/cover.png",
+    "image": "https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/assets/cover.png",
     "description": "Technical set of guides to help you explore the Viction ecosystem, including Viction's standards and specifications, and how to build on Viction",
     "content": [
         {
             "id": "build-with-viction-vvrf",
             "title": "Build with Viction's VVRF",
-            "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/exploring-viction-ecosystem/developer-guide-to-rootstock/cover.png",
-            "tutorial": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/README.md",
+            "image": "https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/developer-guide-to-rootstock/cover.png",
+            "tutorial": "https://github.com/solide-project/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/README.md",
             "reference": "https://docs.viction.xyz/developer-guide/smart-contract-development/vrrf",
             "description": "Viction VRRF, which stands for Verifiable Relatively Random Function, is a pseudo-random number generator that is both verifiable and provably fair.",
             "playground": {
                 "default": {
-                    "address": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/contract/Dice.sol",
+                    "address": "https://github.com/solide-project/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/contract/Dice.sol",
                     "version": "v0.8.19+commit.7dd6d404"
                 }
             }
