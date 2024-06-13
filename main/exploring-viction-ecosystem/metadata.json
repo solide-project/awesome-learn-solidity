@@ -1,20 +1,20 @@
 {
     "lessonId": "exploring-viction-ecosystem",
     "title": "Exploring Viction Ecosystem",
-    "image": "https://blog.viction.xyz/content/images/2023/10/viction-logo.png",
-    "description": "This lesson covers the basics of JSON, including its structure, data types, and usage.",
+    "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/exploring-viction-ecosystem/assets/cover.png",
+    "description": "Technical set of guides to help you explore the Viction ecosystem, including Viction's standards and specifications, and how to build on Viction",
     "content": [
         {
-            "id": "vvrf",
-            "title": "Viction Verifiable Relatively Random Function",
-            "image": "https://blog.viction.xyz/content/images/2023/10/viction-introducing.png",
-            "tutorial": "https://github.com/BuildOnViction/gitbook/blob/e5588c075990b2fa9b8c689035b21c1adc5a25da/developer-guide/smart-contract-development/vrrf.md",
-            "reference": "",
+            "id": "build-with-viction-vvrf",
+            "title": "Build with Viction's VVRF",
+            "image": "https://raw.githubusercontent.com/5208980/awesome-learn-solidity/master/main/exploring-viction-ecosystem/developer-guide-to-rootstock/cover.png",
+            "tutorial": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/README.md",
+            "reference": "https://docs.viction.xyz/developer-guide/smart-contract-development/vrrf",
             "description": "Viction VRRF, which stands for Verifiable Relatively Random Function, is a pseudo-random number generator that is both verifiable and provably fair.",
             "playground": {
                 "default": {
-                    "address": "0x542FDA317318eBf1d3DeAF76E0B632741a7e677d",
-                    "chainId": "30"
+                    "address": "https://github.com/5208980/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/contract/Dice.sol",
+                    "version": "v0.8.19+commit.7dd6d404"
                 }
             }
         },
@@ -27,7 +27,7 @@
             "description": "Deploy your first VRC25 is the official standard for fungible tokens in Viction ecosystem.",
             "playground": {
                 "default": {
-                    "address": "https://github.com/BuildOnViction/vrc25/blob/main/contracts/tests/VRC25Issuer.sol"
+                    "address": "https://github.com/BuildOnViction/vrc25/blob/main/contracts/tests/SampleVRC25.sol"
                 }
             }
         }
