@@ -6,7 +6,7 @@ interface IVRRF {
      * @notice Get pseudo-random number base on provided seed
      * @param salt Random data as an additional input to harden the random
      */
-    function random(bytes32 salt) external view returns (bytes32);
+    function random(bytes32 salt) external returns (bytes32);
 }
 
 /**
@@ -17,18 +17,25 @@ interface IVRRF {
 contract Dice {
     IVRRF public immutable vvrf;
 
+    event RollEvent(uint256, uint256, uint256 value);
+
     constructor(address _vvrf) {
         vvrf = IVRRF(_vvrf);
     }
 
-    function roll() public view returns (uint8) {
-        bytes32 salt = blockhash(block.number - 1);
+    function roll() public returns (uint8) {
+        uint256 ts = block.number;
+        bytes32 salt = blockhash(ts - 1);
         uint256 n = uint256(vvrf.random(salt));
-        return uint8((n % 6) + 1);
+        uint8 value = uint8((n % 6) + 1);
+        emit RollEvent(ts, n, value);
+        return value;
     }
 
-    function rollWithSalt(bytes32 salt) public view returns (uint8) {
+    function rollWithSalt(bytes32 salt) public returns (uint8) {
         uint256 n = uint256(vvrf.random(salt));
-        return uint8((n % 6) + 1);
+        uint8 value = uint8((n % 6) + 1);
+        emit RollEvent(block.number, n, value);
+        return value;
     }
 }
