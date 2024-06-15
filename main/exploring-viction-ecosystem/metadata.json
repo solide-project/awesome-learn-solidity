@@ -13,8 +13,8 @@
             "description": "Viction VRRF, which stands for Verifiable Relatively Random Function, is a pseudo-random number generator that is both verifiable and provably fair.",
             "playground": {
                 "default": {
-                    "address": "https://github.com/solide-project/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/contract/Dice.sol",
-                    "version": "v0.8.19+commit.7dd6d404"
+                    "address": "0x442c9b1B3058944A71a4B4DC67805532348791DE",
+                    "chainId": "89"
                 }
             }
         },
