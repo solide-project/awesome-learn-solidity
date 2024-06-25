@@ -5,10 +5,10 @@
     "description": "Technical set of guides to help you explore the Viction ecosystem, including Viction's standards and specifications, and how to build on Viction",
     "content": [
         {
-            "id": "build-with-viction-vvrf",
-            "title": "Build with Viction's VVRF",
-            "image": "https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/cover.png",
-            "tutorial": "https://github.com/solide-project/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vvrf/README.md",
+            "id": "build-with-viction-vrrf",
+            "title": "Build with Viction's VRRF",
+            "image": "https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/build-with-viction-vrrf/cover.png",
+            "tutorial": "https://github.com/solide-project/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/build-with-viction-vrrf/README.md",
             "reference": "https://docs.viction.xyz/developer-guide/smart-contract-development/vrrf",
             "description": "Viction VRRF, which stands for Verifiable Relatively Random Function, is a pseudo-random number generator that is both verifiable and provably fair.",
             "playground": {
