@@ -1,0 +1,21 @@
+{
+    "lessonId": "solidocathon",
+    "title": "Solidocathon",
+    "image": "https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/smart-contracts-on-rootstock/assets/cover.png",
+    "description": "A collection of Solidity tutorials and guides about Solidity",
+    "content": [
+        {
+            "id": "id-should-match-folder-name",
+            "title": "Add a catchy title here",
+            "image": "https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/solide-code-craft/id-should-match-folder-name/cover.png",
+            "tutorial": "https://github.com/solide-project/awesome-learn-solidity/blob/master/main/solide-code-craft/id-should-match-folder-name/README.md",
+            "reference": "Optional reference link here",
+            "description": "Write a short description here."
+        }
+    ],
+    "resources": [],
+    "author": {
+        "name": "",
+        "email": ""
+    }
+}
