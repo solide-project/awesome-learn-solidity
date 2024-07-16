@@ -38,16 +38,16 @@ When you load the the `VicIssuer` into the an IDE, you can deploy and interact w
 This value will be important as it'll be need to be pass as the `msg.value` when invoking `apply` and thus applying the VRC25 token to the Zero Gas Integration. 
 ### Apply
 
-![Mint](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/apply.png)
+![Mint](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/apply.png)
 
 You can enable gasless transactions for your VRC25 token by deploying the token and invoking the `apply` method. This process allows the token to support gasless operations, making transactions smoother and more user-friendly. It's recommended to include a deposit of 10 VIC during this step, which will be used to sponsor the gas fees. This ensures that all transactions remain gasless, enhancing the user experience. If preferred, you can choose to make this deposit at a later stage, but incorporating it during the initial deployment is advisable for seamless integration. To confirm that your VRC25 token has been successfully set up for gasless transactions, you can check the details in the blockchain explorer. This verification step ensures that the token deployment and the application for gasless transactions were executed correctly, providing transparency and assurance that your VRC25 token is ready for seamless, fee-free operations.
 
-![Applied on Vic Issuer](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/applied-issuer.png)
+![Applied on Vic Issuer](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/applied-issuer.png)
 ### Found your token address with tokens()
 
 If you take call `tokens()`. It will return the entire list of applied tokens available for the Issuer. The applied token address from before should be there.
 
-![Token List](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/token-list.png)
+![Token List](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/token-list.png)
 ### Charge (Optionally)
 
 In addition to the VICIssuer's capabilities, there is a crucial method called `charge` that allows you to recharge the token's capacity. This method enables the addition of funds to support ongoing gasless transactions. When you use the `charge` method, you can deposit additional value to the token, ensuring that the token's capacity remains sufficient to cover transaction fees.
@@ -65,11 +65,11 @@ If you go back to the VRC25 Token and load the VRC25 token. Lets go Address Y fr
 
 Once that been completed, we can take a look at the transaction hash. An gas less burn can used for this resource can be found here: [0xbbd4b30b530093b1e6b1cd169680f389624b0aaf5092cd9b1bd93d106238608d](https://testnet.vicscan.xyz/tx/0xbf8187748ee442c4c2163e6a0e927571145762b19ae96b6d3848cf066f8fb481). From the image transaction in the explorer we can see, the transaction type is **gas sponsored**.
 
-![Gas Sponsor](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/gas-sponsor.png)
+![Gas Sponsor](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/gas-sponsor.png)
 
 If you take a look in the address in the explorer or your wallet. The address will still have there entire amount of VIC.
 
-![After](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/after.png)
+![After](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic/main/exploring-viction-ecosystem/deep-dive-viction-issuer/assets/after.png)
 
 ## Conclusion
 

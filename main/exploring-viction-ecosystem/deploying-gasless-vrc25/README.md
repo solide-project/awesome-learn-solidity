@@ -4,7 +4,7 @@ This is a two-part series that will delve into deploying a VRC25 token and lever
 
 ## VRC25
 
-The VRC25 standard introduces a game-changing feature: gasless transactions. This means users no longer need native tokens for transaction fees; instead, they can use VRC25 tokens, simplifying the process and making it more user-friendly, especially for newcomers to the blockchain. A key highlight is that VRC25 allows smart contracts to sponsor transaction fees, enhancing their functionality and demonstrating Viction's focus on user-centric solutions. While retaining the familiar ERC20 structure for compatibility, VRC25 improves the user experience by streamlining token transfers and fee management, making blockchain more accessible and efficient for everyone.
+The VRC25 standard introduces a game-changing feature: gasless transactions. This means users no longer need native tokens for transaction fees; instead, they can use VRC25 tokens, simplifying the process and making it more user-friendly, especially for newcomers to the blockchain. A key highlight is that VRC25 allows smart contracts to sponsor transaction fees, enhancing their functionality and demonstrating Viction's focus on user-centric solutions. While retaining the familiar ERC20 structure for compatibility, VRC25 improves the user experience by streamlining token transfers and fee management, making blockchain more accessible and https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic for everyone.
 
 ## Comparison between VRC25/ERC20 
 
@@ -100,7 +100,7 @@ The `SampleVRC25` contract extends the functionality of the VRC25 token standard
 
 Once a the VRC25 token has been deployed, let's create and use another address, *Address Y*, and fund it with using [Viction Testnet Faucet](https://faucet-testnet.viction.xyz/).
 
-With this funding, we can mint the sample VRC25 token to *Address Y*. While this initial interaction will incur gas fees, the minted tokens will enable Address Y to participate in token burning. In the next steps, we will apply Viction's Issuer functionality to allow Address Y to burn tokens without incurring gas fees (as well as minting), making the process efficient and cost-effective.
+With this funding, we can mint the sample VRC25 token to *Address Y*. While this initial interaction will incur gas fees, the minted tokens will enable Address Y to participate in token burning. In the next steps, we will apply Viction's Issuer functionality to allow Address Y to burn tokens without incurring gas fees (as well as minting), making the process https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic and cost-effective.
 
 ![Mint](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/deploying-gasless-vrc25/assets/mint.png)
 
