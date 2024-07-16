@@ -19,15 +19,16 @@
             }
         },
         {
-            "id": "deploy-vrc-25-token",
-            "title": "Deploying your first VRC25 Token",
-            "image": "https://miro.medium.com/v2/resize:fit:1400/0*wuIERlL9HGKEhJ0u.png",
-            "tutorial": "https://github.com/BuildOnViction/gitbook/blob/e5588c075990b2fa9b8c689035b21c1adc5a25da/developer-guide/standards-and-specification/vrc25-specification.md",
-            "reference": "https://docs.viction.xyz/developer-guide/standards-and-specification",
+            "id": "deploying-gasless-vrc25",
+            "title": "Deploying Gasless Tokens with VRC25",
+            "image": "https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/deploying-gasless-vrc25/cover.png",
+            "tutorial": "https://github.com/solide-project/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/deploying-gasless-vrc25/README.md",
+            "reference": "https://docs.viction.xyz/developer-guide/standards-and-specification/vrc25-specification",
             "description": "Deploy your first VRC25 is the official standard for fungible tokens in Viction ecosystem.",
             "playground": {
                 "default": {
-                    "address": "https://github.com/BuildOnViction/vrc25/blob/main/contracts/tests/SampleVRC25.sol"
+                    "address": "https://github.com/BuildOnViction/vrc25/blob/main/contracts/tests/SampleVRC25.sol",
+                    "version": "v0.6.12+commit.27d51765"
                 }
             }
         }
