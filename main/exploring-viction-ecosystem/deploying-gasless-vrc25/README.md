@@ -102,7 +102,7 @@ Once a the VRC25 token has been deployed, let's create and use another address, 
 
 With this funding, we can mint the sample VRC25 token to *Address Y*. While this initial interaction will incur gas fees, the minted tokens will enable Address Y to participate in token burning. In the next steps, we will apply Viction's Issuer functionality to allow Address Y to burn tokens without incurring gas fees (as well as minting), making the process https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic and cost-effective.
 
-![Mint](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/deploying-gasless-vrc25/assets/mint.png)
+![Mint](https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/vic/main/exploring-viction-ecosystem/deploying-gasless-vrc25/assets/mint.png)
 
 ## Conclusion
 
