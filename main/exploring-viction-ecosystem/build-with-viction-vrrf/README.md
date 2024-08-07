@@ -57,8 +57,6 @@ contract Dice {
 }
 ```
 
-Sure, here's the revised text in Markdown format with corrections:
-
 Here, we can define the **VRRF** and place it in the constructor: `IVRRF public immutable vrrf;`. Once the contract is compiled, depending on the Viction network you are deploying to, you'll need to pass the address. For this guide, we'll be deploying to Viction Testnet (89). Details to add to the testnet can be found [here](https://docs.viction.xyz/developer-guide/deploy-on-viction/viction-testnet). Afterward, we can use the testnet **VRRF** (`0xDb14c007634F6589Fb542F64199821c3308A9d92`) to define it in the Dice contract.
 
 Looking at the functions of `Dice`, Line 27 `roll()` utilise VRRF and Viction's `block.number`. The process utilizes the `blockhash(block.number - 1)` to introduce unpredictability, enhancing randomness the randomness on-chain. While this is deterministic, the block hash's unpredictability at block creation ensures integrity. Moreover, by incorporating the previous block's hash as a salt, the function further complicates prediction, safeguarding against manipulation and ensuring fairness in random number generation of the dice. To simulates a six-sided dice roll by taking a VRRF result the contract calculates to get a value between 1 and 6. The result is cast to a `uint8` type and returned. Similar the other function `rollWithSalt()` with the purpose to give more control to the roll. 
