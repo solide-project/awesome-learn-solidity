@@ -31,6 +31,20 @@
                     "version": "v0.6.12+commit.27d51765"
                 }
             }
+        },
+        {
+            "id": "nft-with-vrc725",
+            "title": "Deploying NFT with VRC725",
+            "image": "https://raw.githubusercontent.com/solide-project/awesome-learn-solidity/master/main/exploring-viction-ecosystem/nft-with-vrc725/cover.png",
+            "tutorial": "https://github.com/solide-project/awesome-learn-solidity/blob/master/main/exploring-viction-ecosystem/nft-with-vrc725/README.md",
+            "reference": "https://docs.viction.xyz/developer-guide/standards-and-specification/vrc725-specification",
+            "description": "Deploy your first VRC725 is the official standard for fungible tokens in Viction ecosystem.",
+            "playground": {
+                "default": {
+                    "address": "https://github.com/BuildOnViction/vrc725/blob/main/contracts/tests/NFTMock.sol",
+                    "version": "v0.6.12+commit.27d51765"
+                }
+            }
         }
     ],
     "resources": [
